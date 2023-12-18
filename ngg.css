@@ -1,0 +1,605 @@
+body{
+    margin: 0;
+}
+.top{
+    width: 100%;
+    height: 60px;
+    background-color: #23252b;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.crunchyLogo{
+    width: 136px;
+    height: 26px;
+    position: relative;
+    margin-left: 95px;
+
+}
+.TopLeft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profile{
+    width: 290px;
+    height: 35px;
+    margin-right: 95px;
+}
+#Nm2{
+    padding-left: 35px;
+    color: #dadada;
+    font-family: "Gill Sans", sans-serif;
+    font-size: large;
+    text-decoration: none;
+}
+#Nm{
+    margin-right: 10px;
+    padding-left: 35px;
+    color: #dadada;
+    font-family: "Gill Sans", sans-serif;
+    font-size: large;
+
+}
+.imgg{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 1000px;
+}
+.blogo{
+    width: 405px;
+    height: 180px;
+    position: relative;
+    padding-top: 200px;
+
+}
+.klk{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 550px;
+    height: 100%;
+    padding-left: 100px;
+}
+.sd{
+    padding-top: 20px;
+    color: rgb(161, 161, 161);
+    font-family:Comic Sans MS, Comic Sans, 'cursive'
+}
+.sub{
+    margin-top: 0;
+    color: white;
+    font-family:Comic Sans MS, Comic Sans, 'cursive'
+}
+.box{
+
+    color: black;
+    background-color: rgb(255, 105, 51);
+    width: 180px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Comic Sans MS, Comic Sans, 'cursive'
+}
+.box:hover{
+
+    color: black;
+    background-color: rgb(255, 164, 132);
+    width: 180px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Comic Sans MS, Comic Sans, 'cursive'
+}
+.newE{
+    color: white;
+    font-size: xx-large;
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+    padding-top: 70px;
+}
+.little{
+    width: 36px;
+    height: 36px;
+    border: 2px rgb(255, 105, 51) solid;
+    margin-left: 10px;
+}
+.boxx{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    align-items: center;
+}
+.urt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 70px;
+    
+}
+.urr{
+    width: 80px;
+    height: 8px;
+    border-radius: 90px;
+    background-color:rgb(255, 105, 51) ;
+
+}
+
+
+
+#ur{
+    width: 35px;
+    height: 8px;
+    background-color: gray;
+    margin-left: 5px;
+    border-radius: 90px;
+}
+#ur:hover{
+    width: 35px;
+    height: 8px;
+    background-color: rgb(255, 105, 51);
+    margin-left: 5px;
+    border-radius: 90px;
+}
+.a{
+    color: black;
+    text-decoration: none;
+}
+.episodes{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: black;
+    position: relative;
+    margin-top: 100px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.tpm{
+    width: 660px;
+    height: 84px;
+    margin-left: 110px;
+    display: flex;
+    flex-direction: row;
+}
+.tpm_img{
+    width: 153.6px;
+    height: 84px;
+}
+.text_tpm{
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+    padding-left: 15px;
+}
+.name_tpm{
+    color: white;
+    text-decoration:none;
+    margin-top: 0;
+}
+.down_tpm{
+    color: rgb(188, 188, 188);
+    text-decoration:none;
+    margin-top: 0;
+}
+.time{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    color: rgb(0, 152, 194);
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+    margin-bottom : 0;
+    margin-left: 100px;
+}
+.tpm:hover{
+    width: 660px;
+    height: 84px;
+    margin-left: 110px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(90, 90, 90);
+}
+.aotc{
+    width: 660px;
+    height: 84px;
+    margin-left: 110px;
+    display: flex;
+    flex-direction: row;
+}
+.aotc_img{
+    width: 155.6px;
+    height: 84px;
+}
+.text_aotc{
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+    padding-left: 15px;
+}
+.name_aotc{
+    color: white;
+    text-decoration:none;
+    margin-top: 0;
+}
+.down_aotc{
+    color: rgb(188, 188, 188);
+    text-decoration:none;
+    margin-top: 0;
+}
+.time2{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    color: rgb(0, 152, 194);
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+    margin-bottom : 0;
+    margin-left: 90px;
+}
+.aotc:hover{
+    width: 660px;
+    height: 84px;
+    margin-left: 110px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(90, 90, 90);
+}
+.last{
+    display: flex;
+    flex-direction: row;
+    margin-top: 75px;
+}
+
+
+
+.rots{
+    width: 660px;
+    height: 84px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+}
+.rots_img{
+    width: 155.6px;
+    height: 84px;
+}
+.text_rots{
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+    padding-left: 15px;
+}
+.name_rots{
+    color: white;
+    text-decoration:none;
+    margin-top: 0;
+}
+.down_rots{
+    color: rgb(188, 188, 188);
+    text-decoration:none;
+    margin-top: 0;
+}
+.time3{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    color: rgb(0, 152, 194);
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+    margin-bottom : 0;
+    margin-left: 90px;
+}
+.rots:hover{
+    width: 660px;
+    height: 84px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(90, 90, 90);
+}
+.calendar{
+    width: 900px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    background-color: rgb(42, 59, 78);
+    color: white;
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+    margin-top:60px ;
+
+}
+.calendar:hover{
+    width: 900px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    background-color: rgb(82, 111, 144);
+    color: white;
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+    margin-top:60px ;
+}
+.www{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.newss{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.news2{
+width: 1400px;
+height: 770px;
+background-color: black;
+position: relative;
+}
+.gojo{
+    width: 100%;
+    height: 800px;
+    position: absolute;
+}
+.cnew{
+    color: white;
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+    font-size: xx-large;
+    padding-left: 50px;
+}
+#news_tittle{
+    color: white;
+    font-size: larger;
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+}
+.all_news{
+    display: flex;
+    flex-direction: row;
+}
+.death_img{
+    width: 260px;
+    height: 137px;
+
+}
+.top_news{
+    width: 260px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+.gojo_tittle{
+    color: white;
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+    font-size: large;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#bla{
+    color: rgb(181, 181, 181);
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+    margin: 0;
+    font-size: smaller;
+
+}
+
+#idk_tittle{
+    color: white;
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+    font-size: large;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#bla{
+    color: rgb(181, 181, 181);
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+    margin: 0;
+    font-size: smaller;
+
+}
+.idk_img{
+    width: 260px;
+    height: 137px;
+
+}
+.last2{
+    margin-top: 20px;
+}
+.latest_news{
+    margin-left: 50px;
+}
+.latest2_news{
+    display:flex ;
+    flex-direction: column;
+}
+.LxL{
+    width: 155.6px;
+    height: 84px;
+}
+.lxl_t{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.news3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+#newsss{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+}
+.other{
+    width: 100%;
+    height: 2000px;
+    background-color: black;
+    padding-left: 100px;
+}
+.mostg{
+    color: white;
+    font-size: xx-large;
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+    margin-top: 0;
+    padding-top: 65px;
+    margin-bottom: 20px;
+}
+.jojo_img{
+    width: 270px;
+    height: 420px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.jojo{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    width: 280px;
+    height: 510px;
+    margin-bottom: 10px;
+}
+.jojo:hover{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    width: 280px;
+    height: 510px;
+    background-color: rgb(80, 80, 80);
+}
+
+.jojo_t{
+    color: white;
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+    margin-left: 5px;
+    text-decoration: none;
+}
+.jojo2{
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+    color: rgb(157, 157, 157);
+    margin-top: 0;
+    margin-left: 5px;
+    text-decoration: none;
+}
+#animes{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+
+
+.ber_img{
+    width: 270px;
+    height: 420px;
+    margin-left:5px ;
+    margin-top: 5px;
+}
+.ber{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    width: 280px;
+    height: 520px;
+}
+.ber:hover{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    width: 280px;
+    height: 520px;
+    background-color: rgb(80, 80, 80);
+}
+.ber_t{
+    color: white;
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+    margin-left: 5px;
+    text-decoration: none;
+}
+.ber2{
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+    color: rgb(157, 157, 157);
+    margin-top: 0;
+    margin-left: 5px;
+    text-decoration: none;
+}
+#mostgg{
+    color: white;
+    font-size: xx-large;
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+    margin-top: 0;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+.mostggg{
+    color: white;
+    font-size: xx-large;
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+    margin-top: 0;
+    padding-top: 40px;
+    margin-bottom: 0;
+}
+.bab{
+    color: rgb(139, 139, 139);
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+    margin-top: 0;
+}
+#str{   
+     display: flex;
+flex-direction: column;
+margin-right: 25px;
+width: 280px;
+height: 520px;
+}
+
+#str:hover{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    width: 280px;
+    height: 520px;
+    background-color: rgb(80, 80, 80);
+}
+#strw_t{
+    color: white;
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+    margin-left: 5px;
+    text-decoration: none;
+}
+#str2{
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+    color: rgb(157, 157, 157);
+    margin-top: 0;
+    margin-left: 5px;
+    text-decoration: none;
+}
+#str_img{
+    width: 270px;
+    height: 420px;
+    margin-left:5px ;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#qqq{
+    color: white;
+    font-family:Comic Sans MS, Comic Sans, 'cursive';
+    font-size: large;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.endd{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.end{
+    display: flex;
+    flex-direction: column;
+}
+.wer{
+    width: 100%;
+    height: 100%;
+}
